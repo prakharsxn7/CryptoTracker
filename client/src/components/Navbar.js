@@ -20,7 +20,7 @@ function Navbar(props) {
         <Link to={"/"}>
           {" "}
           <h1 className="text-[30px] font-black cursor-pointer">
-            logi<span className="text-blue-800">Tracker </span>
+            Crypto<span className="text-blue-800">Tracker </span>
           </h1>
         </Link>
         {user === "logged in" && (
@@ -33,7 +33,7 @@ function Navbar(props) {
               <p className="cursor-pointer hover:text-blue-600">Trending</p>
             </Link>
             <Link to={"/watchlist"}>
-              <p className="cursor-pointer hover:text-blue-600">watchlist</p>
+              <p className="cursor-pointer hover:text-blue-600">Watchlist</p>
             </Link>
           </navitems>
         )}

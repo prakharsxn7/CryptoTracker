@@ -3,18 +3,17 @@ import { useState, useEffect } from "react";
 const Home = function () {
   return (
     <>
-      {/* credit: https://github.com/codebushi/gatsby-starter-lander */}
+      
       <div>
         <main className="text-gray-900">
           <section className="pt-20 md:pt-40">
             <div className="container mx-auto px-8 lg:flex">
               <div className="text-center lg:text-left lg:w-1/2">
                 <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-                  Main title of your landing page
+                  CryptoTracker
                 </h1>
                 <p className="text-xl lg:text-2xl mt-6 font-light">
-                  Free landing page template to promote your business startup
-                  and generate leads for the offered services
+                Get real-time cryptocurrency updates, track your favorites, and stay ahead with comprehensive market insights—all in one place.
                 </p>
                 <p className="mt-8 md:mt-12">
                   <button
@@ -25,7 +24,7 @@ const Home = function () {
                   </button>
                 </p>
                 <p className="mt-4 text-gray-600">
-                  Sed fermentum felis ut cursu
+                  
                 </p>
               </div>
               <div className="lg:w-1/2">
@@ -591,10 +590,9 @@ const Home = function () {
                     className="p-12 rounded-lg border border-solid border-gray-200 mb-8"
                     style={{ boxShadow: "0 10px 28px rgba(0,0,0,.08)" }}
                   >
-                    <p className="font-semibold text-xl">Service One</p>
+                    <p className="font-semibold text-xl">Real-Time Cryptocurrency Data</p>
                     <p className="mt-4">
-                      An enim nullam tempor gravida donec enim ipsum blandit
-                      porta justo integer odio velna vitae auctor integer.
+                    Access up-to-date prices, market trends, and detailed metrics for a wide range of cryptocurrencies.
                     </p>
                   </div>
                 </div>
@@ -603,10 +601,9 @@ const Home = function () {
                     className="p-12 rounded-lg border border-solid border-gray-200 mb-8"
                     style={{ boxShadow: "0 10px 28px rgba(0,0,0,.08)" }}
                   >
-                    <p className="font-semibold text-xl">Service Two</p>
+                    <p className="font-semibold text-xl">Personalized Watchlist</p>
                     <p className="mt-4">
-                      An enim nullam tempor gravida donec enim ipsum blandit
-                      porta justo integer odio velna vitae auctor integer.
+                    Create and manage a customized list of your favorite cryptocurrencies to quickly track their performance and updates.
                     </p>
                   </div>
                 </div>
@@ -615,10 +612,9 @@ const Home = function () {
                     className="p-12 rounded-lg border border-solid border-gray-200 mb-8"
                     style={{ boxShadow: "0 10px 28px rgba(0,0,0,.08)" }}
                   >
-                    <p className="font-semibold text-xl">Service Three</p>
+                    <p className="font-semibold text-xl">User Authentication</p>
                     <p className="mt-4">
-                      An enim nullam tempor gravida donec enim ipsum blandit
-                      porta justo integer odio velna vitae auctor integer.
+                    Securely sign up and log in to personalize your experience, including saving your watchlist and accessing exclusive features.
                     </p>
                   </div>
                 </div>
