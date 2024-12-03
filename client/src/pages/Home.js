@@ -10,7 +10,7 @@ const Home = function () {
             <div className="container mx-auto px-8 lg:flex">
               <div className="text-center lg:text-left lg:w-1/2">
                 <h1 className="text-4xl lg:text-5xl xl:text-6xl font-bold leading-none">
-                  CryptoTracker
+                  CryptoSpectra
                 </h1>
                 <p className="text-xl lg:text-2xl mt-6 font-light">
                 Get real-time cryptocurrency updates, track your favorites, and stay ahead with comprehensive market insights—all in one place.
