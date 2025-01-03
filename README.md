@@ -1,8 +1,8 @@
-# CryptoSpectra
+# CryptoTracker
 
 ## Description
 
-**CryptoSpectra** is a comprehensive application designed to provide real-time information about cryptocurrencies. It displays the current prices of various cryptocurrencies along with their names, price trends (increase or decrease), market capitalization, logos, and total volume. The application also features a user authentication system and several key pages for a personalized user experience.
+**CryptoTracker** is a comprehensive application designed to provide real-time information about cryptocurrencies. It displays the current prices of various cryptocurrencies along with their names, price trends (increase or decrease), market capitalization, logos, and total volume. The application also features a user authentication system and several key pages for a personalized user experience.
 
 ## Features
 
