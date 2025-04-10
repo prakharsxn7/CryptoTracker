@@ -25,8 +25,16 @@ const Top10 = () => {
   return data.length === 0 ? (
     <Loadingui />
   ) : (
-    <div className="container w-full mx-auto">
-      <Cards data={data.coins} checker={"top10"} />
+    <div className="min-h-screen bg-gradient-to-br from-[#050505] to-[#0A0A0A] backdrop-blur-sm">
+      <div className="container mx-auto py-8 px-4">
+        <h1 className="text-3xl font-bold mb-8 text-white">
+          Top 10 Trending
+        </h1>
+        <p className="mb-8 max-w-3xl text-gray-300">
+          The most searched cryptocurrencies in the last 24 hours. These are the coins generating the most interest in the crypto community right now.
+        </p>
+        <Cards data={data.coins} checker={"top10"} />
+      </div>
     </div>
   );
 };

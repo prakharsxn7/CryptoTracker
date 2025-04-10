@@ -9,6 +9,7 @@ import {
   createBrowserRouter,
 } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import Top10 from "./pages/Top10";
 import Trending from "./pages/Trending";
@@ -21,19 +22,24 @@ import { appStore } from "./store/appStore";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
 import NotFound from "./pages/NotFound";
+import { ThemeProvider } from "./components/ThemeProvider";
 
 export const Data = createContext();
 
 const Applayout = () => {
   return (
     <Provider store={appStore}>
-      <Data.Provider value={"Anmol"}>
-        <div>
-          <Navbar />
-          <Outlet />
-          {/* <Footer /> */}
-        </div>
-      </Data.Provider>
+      <ThemeProvider>
+        <Data.Provider value={"Anmol"}>
+          <div className="flex flex-col min-h-screen">
+            <Navbar />
+            <main className="flex-grow">
+              <Outlet />
+            </main>
+            <Footer />
+          </div>
+        </Data.Provider>
+      </ThemeProvider>
     </Provider>
   );
 };

@@ -8,6 +8,7 @@ const Trending = () => {
   const [data, setData] = useState([]);
   const user = useSelector((store) => store.user);
   const navigate = useNavigate();
+  
   useEffect(() => {
     if (user === "") {
       navigate("/");
@@ -28,8 +29,16 @@ const Trending = () => {
     return <Loadingui />;
   } else {
     return (
-      <div className="container w-full mx-auto">
-        <Cards data={data} />
+      <div className="min-h-screen bg-gradient-to-br from-[#050505] to-[#0A0A0A] backdrop-blur-sm">
+        <div className="container mx-auto py-8 px-4">
+          <h1 className="text-3xl font-bold mb-8 text-white">
+            Trending Cryptocurrencies
+          </h1>
+          <p className="mb-8 max-w-3xl text-gray-300">
+            Explore the most popular cryptocurrencies in the market. Stay updated with real-time data on price changes, market cap, and trading volume.
+          </p>
+          <Cards data={data} />
+        </div>
       </div>
     );
   }
