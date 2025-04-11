@@ -20,31 +20,10 @@ function Navbar() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <Link to={"/"} className="flex items-center">
-            <div className="w-8 h-8 mr-2 flex items-center justify-center bg-[#C4FF33] rounded-full">
-              <svg 
-                width="20" 
-                height="20" 
-                viewBox="0 0 24 24" 
-                fill="none" 
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path 
-                  d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" 
-                  stroke="black" 
-                  strokeWidth="2"
-                />
-                <path 
-                  d="M7.5 12.5L10.5 15.5L16.5 9.5" 
-                  stroke="black" 
-                  strokeWidth="2" 
-                  strokeLinecap="round" 
-                  strokeLinejoin="round"
-                />
-              </svg>
+            <div className="w-36 h-13 mr-4 flex items-center justify-center rounded-full ">
+              <img src="/mlogo1.png" alt="logo" className="w-full h-full object-cover" />
             </div>
-            <h1 className="text-2xl font-bold tracking-tight text-white">
-              Crypto<span className="text-[#C4FF33]">Tracker</span>
-            </h1>
+            
           </Link>
 
           {/* Navigation */}

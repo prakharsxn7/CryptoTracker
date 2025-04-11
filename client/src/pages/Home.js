@@ -85,15 +85,15 @@ const Home = function () {
                         <div className="w-3 h-3 rounded-full bg-green-500"></div>
                       </div>
                       
-                      <div className="flex items-center justify-between py-3 border-b border-gray-800">
+                      <div className="flex items-center justify-center py-3 border-b border-gray-800">
                         <div className="flex items-center space-x-2">
-                          <div className="w-8 h-8 bg-gray-700 rounded-full"></div>
-                          <div className="text-white font-medium">CryptoTracker</div>
+                        <div className="w-32 h-15 mr-2 flex items-center justify-center ">
+                          <img src="mlogo1.png" alt="logo" className="w-full h-full object-cover" />
+  
                         </div>
-                        <div className="flex space-x-3">
-                          <div className="w-6 h-6 bg-gray-700 rounded"></div>
-                          <div className="w-6 h-6 bg-gray-700 rounded"></div>
+                          
                         </div>
+                        
                       </div>
                       
                       <div className="mt-4 grid grid-cols-2 gap-4">

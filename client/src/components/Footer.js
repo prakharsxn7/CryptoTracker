@@ -10,12 +10,9 @@ const Footer = () => {
           {/* Logo and About */}
           <div className="md:col-span-1">
             <Link to="/" className="flex items-center mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-[#101010] to-[#151515] border-gray-800 rounded-full flex items-center justify-center border mr-3">
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M12 22C6.477 22 2 17.523 2 12C2 6.477 6.477 2 12 2C17.523 2 22 6.477 22 12C22 17.523 17.523 22 12 22ZM12 20C16.4183 20 20 16.4183 20 12C20 7.58172 16.4183 4 12 4C7.58172 4 4 7.58172 4 12C4 16.4183 7.58172 20 12 20ZM11 7H13V9H11V7ZM11 11H13V17H11V11Z" fill="#C4FF33"/>
-                </svg>
-              </div>
-              <span className="text-xl font-bold text-white">Crypto<span className="text-[#C4FF33]">Tracker</span></span>
+              <div className="w-40 h-15 mr-2 flex items-center justify-center ">
+              <img src="/mlogo1.png" alt="logo" className="w-full h-full object-cover" />
+            </div>
             </Link>
             <p className="mb-4 text-gray-400">
               Your reliable companion for tracking cryptocurrency prices, trends, and market movements in real-time.
@@ -101,6 +98,7 @@ const Footer = () => {
         <div className="pt-8 mt-8 border-t border-gray-800 text-center">
           <p className="text-gray-500 text-sm">
             © {new Date().getFullYear()} CryptoTracker. All rights reserved.
+            <br/>Designed and Developed with ♥ by Prakhar Saxena
           </p>
         </div>
       </div>
